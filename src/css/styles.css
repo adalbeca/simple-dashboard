@@ -1,0 +1,70 @@
+.ant-layout  {
+    background: #f9f9f9 !important;
+    min-height: 100vh !important;
+}
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-layout-header, .ant-layout-sider {
+    background: rgb(70, 70, 70) !important;
+}
+ {
+    background: rgb(70, 70, 70) !important;
+}
+.ant-layout-sider-trigger{
+    background: #262727;
+}
+.ant-layout-header {
+    height: 55px !important;
+}
+
+.page {
+    margin-top: 20px;
+}
+.section {
+    height: 45px;
+    margin-bottom: 30px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-name {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    margin-left: 2px;
+}
+
+.height-55 {
+    height: 55px;
+}
+.sider-logo {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    padding-top: 5px;
+}
+.sider-logo img{
+        width: 50px;
+}
+.rw-line-height {
+    line-height: 16px;
+}
+.header-user-name {
+    margin-right: 5px;
+    color: #fff;;
+    font-size: 12px;
+    font-weight: 700;
+}
+.header-user-company {
+    margin-right: 5px;
+    color: darkgray;
+    font-size: 10px;
+}
+@media (max-width: 1390px) {
+    .ant-table-wrapper table {
+        font-size: 12px !important;
+    }
+    .section-name, .section-action-box .ant-btn, .section-edit-box .ant-btn {
+        font-size: 12px;
+        height: 35px;
+    }
+}
